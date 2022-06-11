@@ -6,7 +6,7 @@ echo "deb [trusted=yes] http://packages.cloud.google.com/apt gcsfuse-stretch mai
 curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add - 
 apt-get update
 apt-get -y install gcsfuse
-#apt-get -y install nano
+apt-get -y install nano
 
 #Create mount point dirs for fuse
 mkdir /var/www/html/LocalSettingsLink
